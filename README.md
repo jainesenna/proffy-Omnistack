@@ -14,5 +14,9 @@
     - ReactJS
     - Typescript
     - react-router-dom
+    
+  - **Mobile**
+    - Expo
+    - Typescript
 
 ---
