@@ -18,5 +18,6 @@
   - **Mobile**
     - Expo
     - Typescript
+    - Axios
 
 ---
