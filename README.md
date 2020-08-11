@@ -19,5 +19,6 @@
     - Expo
     - Typescript
     - Axios
+    - AsyncStorage
 
 ---
