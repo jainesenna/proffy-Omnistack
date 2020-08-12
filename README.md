@@ -18,7 +18,7 @@
   - **Mobile**
     - Expo
     - Typescript
-    - Axios
+    - axios
     - AsyncStorage
 
 ---
