@@ -2,13 +2,11 @@ import { Request, Response } from 'express';
 
 import db from '../database/connection';
 import convertHourToMinutes from '../utils/convertHourToMinutes';
-
 interface ScheduleItem {
   week_day: number;
   from: string;
   to: string;
 }
-
 export default class ClassesCrontroller {
   async index(request: Request, response: Response) {
     const filters = request.query;
@@ -40,7 +38,6 @@ export default class ClassesCrontroller {
 
     return response.json(classes);
   }
-
 
   async create (request: Request, response: Response) {
     const {
