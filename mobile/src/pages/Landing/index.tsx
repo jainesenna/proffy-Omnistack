@@ -9,10 +9,9 @@ import studyIcon from '../../assets/images/icons/study.png';
 import giveClassesIcon from '../../assets/images/icons/give-classes.png';
 import heartIcon from '../../assets/images/icons/heart.png';
 
-import styles from './styles';
 import api from '../../services/api';
 
-
+import styles from './styles';
 
 function Landing() {
   const {navigate} = useNavigation();
@@ -26,7 +25,6 @@ function Landing() {
       setTotalConnections(total);
     });
   }, []);
-
 
   function handleNavigateToGiveClassesPage() {
     navigate('GiveClasses');

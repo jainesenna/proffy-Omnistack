@@ -7,7 +7,6 @@ import { useNavigation } from '@react-navigation/native';
 
 import styles from './styles';
 
-
 function GiveClasses() {
   const { goBack } = useNavigation();
   function handleNavigateBack() {
