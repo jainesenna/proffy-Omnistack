@@ -12,9 +12,7 @@ import api from '../../services/api';
 
 import './styles.css';
 
-
 function Landing() {
-
   const [totalConnections, setTotalConnections] = useState(0);
 
   useEffect(() => {

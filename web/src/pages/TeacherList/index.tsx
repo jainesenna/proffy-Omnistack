@@ -8,7 +8,6 @@ import api from '../../services/api';
 
 import './styles.css';
 
-
 function TeacherList(){
   const [teachers, setTeachers] = useState([]);
   const [subject, setSubject] = useState('');
@@ -89,4 +88,5 @@ function TeacherList(){
     </div>
   )
 }
+
 export default TeacherList;

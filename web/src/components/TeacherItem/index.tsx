@@ -3,7 +3,6 @@ import React from 'react';
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 
 import './styles.css'
-
 export interface Teacher {
   id: number;
   name: string;
